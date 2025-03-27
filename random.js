@@ -10,7 +10,8 @@ var imageList = [
 ];
 
 // Generate a random number based on the number of images in the array:
-var radomizer = Math.floor(Math.random() * imageList.length);
+var randomizer = Math.floor(Math.random() * imageList.length);
+// You misspelled randomizer. Yours was missing the "n"
 
 // Get the image from the array based on that random number:
 var randomPick = imageList[randomizer];
